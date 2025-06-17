@@ -12,7 +12,7 @@ This repository contains R code for the analyses published in:
 
 The code generates figures and tables describing absolute and relative risks of ipsilateral invasive breast cancer (iIBC) and disease-specific survival (DSS) among women managed without immediate surgery for DCIS.
 
-> ⚠️ **Data Note**: The analytic dataset (`analytic_cohort.RData`) and life table input are not publicly available. This repository provides code only, for transparency and reproducibility.
+> ⚠️ **Data Note**: The analytic dataset and life table input required to run these scripts are **not included** in this repository.
 
 ---
 
@@ -54,3 +54,44 @@ install.packages(c(
   "survminer", "ggsurvfit", "tidycmprsk", "gtsummary", "flextable",
   "mice", "mitools"
 ))
+```
+
+---
+
+## 🔍 Input Files (Not Included)
+
+To run the code, the following input files must be available in the working directory. These are **not distributed publicly** due to data use restrictions.
+
+### 1. `analytic_cohort.RData`
+
+This file contains the pre-processed, individual-level cohort data used in the study. It includes variables for patient demographics, tumor characteristics, treatment history, and time-to-event outcomes.
+
+> **Note**: This file is derived from restricted-use data and is not available in this repository.
+
+### 2. `MortalityRatesTables_17Mar2017.csv`
+
+This CSV file contains U.S. life table estimates used to model expected other-cause mortality in the study cohort. It is used by `OC.surv()` and other functions in `aux.fun.R` to compare disease-specific survival against population-level background mortality.
+
+The data are derived from:
+
+> Gangnon RE, Sprague BL, Stout NK, et al.  
+> *Contribution of breast cancer to overall mortality for US women.*  
+> *Medical Decision Making.* 2018;38(1_suppl):24S–31S.  
+> [https://doi.org/10.1177/0272989X17738259](https://doi.org/10.1177/0272989X17738259)
+
+---
+
+## License
+
+This code is released under the [Creative Commons Attribution–NonCommercial (CC BY-NC) license](https://creativecommons.org/licenses/by-nc/4.0/).  
+You are free to use and adapt the code for **non-commercial purposes** with proper attribution.
+
+---
+
+## Contact
+
+For questions or collaboration inquiries, please contact:
+
+**Marc D. Ryser**  
+Duke University  
+📧 [marc.ryser@duke.edu](mailto:marc.ryser@duke.edu)
