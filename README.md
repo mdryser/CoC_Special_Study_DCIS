@@ -77,8 +77,6 @@ The data are derived from:
 > Gangnon RE, Sprague BL, Stout NK, et al.  
 > *Contribution of breast cancer to overall mortality for US women.*  
 > *Medical Decision Making.* 2018;38(1_suppl):24S–31S.  
-> [https://doi.org/10.1177/0272989X17738259](https://doi.org/10.1177/0272989X17738259)
-
 ---
 
 ## License
