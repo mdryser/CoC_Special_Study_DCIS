@@ -1,12 +1,12 @@
 # Code Repository for BMJ Study  
 **Cancer outcomes in women without upfront surgery for ductal carcinoma in situ (DCIS)**  
-*Marc D. Ryser, E. Shelley Hwang, et al. BMJ, 2025*
+*Marc D. Ryser, ..., E. Shelley Hwang BMJ, 2025*
 
 ## Overview
 
 This repository contains R code for the analyses published in:
 
-> **Ryser MD, Hwang ES, et al.**  
+> **Ryser MD,..., Hwang ES**  
 > *Cancer outcomes in women without upfront surgery for ductal carcinoma in situ (DCIS).*  
 > BMJ, 2025.
 
